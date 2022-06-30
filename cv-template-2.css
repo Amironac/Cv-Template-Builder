@@ -1,0 +1,148 @@
+
+.cv-template-2{
+    margin:auto;
+    padding:0;
+    
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    /* height:600px; */
+    overflow: hidden;
+    /* border:1px solid black; */
+    border-radius: 5px;
+    box-shadow: 3px 5px 5px 3px rgb(181, 181, 181);
+    font-size:10px;   
+}
+h1,i,p,span{
+    font-size:10px;
+}
+
+.cv-template-2 .top{
+    /* text-align: center; */
+    width:100%;
+    height: 28%;
+    /* background-color: red; */
+    color:black;
+    font-size:18px;
+    font-weight: 600;
+    
+}
+
+svg{
+    position: relative;
+    width:100%;
+    z-index: -2;
+}
+.cv-template-2 .personal-info{
+    text-align:center;
+    color:white;
+    margin-top:6px;
+    color: brown;
+}
+.cv-template-2 .top .info{
+    display: flex;
+    width:90%;
+    margin:auto;
+    
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+.cv-template-2 img{
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    width:70px;
+    height: 70px;
+    border-radius:50%;
+    border:2px dotted white;
+}
+.cv-template-2 .top .info > div{
+    width:30%;
+    margin:10px;
+    line-height: 1.5rem;
+    
+}
+
+.cv-template-2 .bottom{
+    width: 100%;
+    padding:10px 20px 0px 20px ;
+    
+}
+.cv-template-2 .bottom .head {
+    text-align: center;
+    color:gray;
+    margin-bottom:20px;
+}
+.cv-template-2 .content{
+    padding-top:20px;
+    color:gray;
+}
+.cv-template-2 .content > div{
+    margin-bottom:20px;
+}
+.cv-template-2 .content > div i {
+    font-size:20px;
+    margin-right:5px;
+}
+
+.cv-template-2 .biography h1{
+    margin-bottom:10px;
+}
+
+.cv-template-2 .skills ul{
+    padding-left:30px;
+    list-style: square;
+    margin-top: 3%;
+    font-size: 13px;
+}
+.cv-template-2 .education-degree{
+    margin-bottom:10px;
+}
+.cv-template-2 .bottom .heading{
+    display: flex;
+    justify-content: left;
+
+}
+.cv-template-2 .heading > div{
+    width:50%;
+}
+.cv-template-2 .heading .years-active{
+    text-align: right;
+    color:rgb(90, 90, 255);
+    font-size:16px;
+}
+.cv-template-2 .experiences .add-experience{
+    padding-top:20px;
+    padding-left: 20px;
+}
+.cv-template-2 .experiences .add-experience p{
+    margin: 5px 0px 5px 10px;
+}
+.cv-template-2 .experiences .add-experience p i{
+    
+    font-size: 15px;
+}
+
+#biography-output-2{
+    width:100%;
+    margin-left:6%;
+    margin-top:1%;
+    margin-bottom:2%;
+}
+
+#hobbie-2 p {
+    margin-left:6%;
+    margin-top: 1%;
+}
+
+.certificate-layout-2 h3{
+    margin-left:6%;
+    margin-top:2%;
+}
+
+.output-experience{
+    margin-top:2%; 
+    margin-left:6%;
+    margin-bottom:5%;
+}

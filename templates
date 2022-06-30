@@ -1,0 +1,358 @@
+
+    <section>
+
+        <div class="cv-template-1">
+            <div class="left">
+                <img src="./cv-template/user.png" alt="">
+                <div class="info">
+
+                    <h1>Personal Info</h1>
+                    <br>
+                    <hr>
+                    <br>
+                    <div>
+                        <p>Phone Number:</p>
+                        <span> 061 900 237</span>
+                    </div>
+                    <div>
+                        <p>Address: </p>
+                        <span>Dzemala Bijedica 279E</span>
+                    </div>
+                    <div>
+                        <p>Email: </p>
+                        <span>amir.celjo2@gmail.com</span>
+                    </div>
+
+                </div>
+                <div class="skills">
+                    <h1><i class="fa-solid fa-square"></i>Skills</h1>
+                    <ul>
+                        <li>Javascript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+                <div class="hobbie">
+                    <h1><i class="fa-solid fa-square"></i>Hobbies</h1>
+
+                    <p>Football, Walking, Bike riding, Driving, Shopping</p>
+
+                </div>
+            </div>
+            <div class="right">
+                
+                <div class="head">
+                    <h1 id="name">Amir Celjo</h1>
+                    <small id="brief">
+                        IT Senior Developer with 5+ experience in Javascript
+                    </small>
+                </div>
+                 
+                <div class="content">
+                    <div class="biography">
+                        <h1><i class="fa-solid fa-square"></i>Biography</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat voluptatem nostrum laborum,
+                            doloremque quaerat iusto possimus, ad consequatur nulla rem ab soluta minima, culpa sit qui
+                            non quasi beatae commodi?</p>
+                    </div>
+                   
+                    <div class="edu">
+                        <h1><i class="fa-solid fa-square"></i>Education</h1>
+
+                        <div class="education-degree">
+                            <div class="heading">
+                                <div>
+                                    <h4>Osnovna skola El-Manar</h4>
+                                    <small>Osmogodisnje skolovanje</small>
+                                </div>
+                                <div class="years-active">
+                                    <span>Sept 2004 - Jun 2012</span>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+
+                        <div class="education-degree">
+                            <div class="heading">
+                                <div>
+                                    <h4>Srednja ugostiteljsko-turisticka skola </h4>
+                                    <small>Ugostiteljski tehnicar</small>
+                                </div>
+                                <div class="years-active">
+                                    <span>Aug 2012- Sept 2016</span>
+                                </div>
+                            </div>
+
+                           
+                        </div>
+                    </div>
+
+
+                  
+                    <div class="certificates">
+                        <h1><i class="fa-solid fa-square"></i>Certificates</h1>
+                        <div class="add-certificate">
+                            <div class="heading">
+                                <div>
+                                    <h4>Cisco Network Administrator</h4>
+                                    <small>Mrezni Administrator</small>
+                                </div>
+                                <div class="years-active">
+                                    <span>Aug 2017- Present</span>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+                    <div class="experiences">
+                        <h1><i class="fa-solid fa-square"></i>Experience</h1>
+                        <div class="add-experience">
+                            <p><i class="fa-solid fa-circle-notch fa-1x"></i> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit eos quo blanditiis! Dicta quidem, mollitia, labore tempora ipsam veritatis a in explicabo minima ex ipsum, sit possimus adipisci quos consequatur?</p>
+                            <p><i class="fa-solid fa-circle-notch fa-1x"></i> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit eos quo blanditiis! Dicta quidem, mollitia, labore tempora ipsam veritatis a in explicabo minima ex ipsum, sit possimus adipisci quos consequatur?</p>
+                            <p><i class="fa-solid fa-circle-notch fa-1x"></i> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit eos quo blanditiis! Dicta quidem, mollitia, labore tempora ipsam veritatis a in explicabo minima ex ipsum, sit possimus adipisci quos consequatur?</p>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+
+        <div class="cv-template-2">
+            <div class="top">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#0099ff" fill-opacity="1"
+                        d="M0,160L48,170.7C96,181,192,203,288,229.3C384,256,480,288,576,272C672,256,768,192,864,181.3C960,171,1056,213,1152,234.7C1248,256,1344,256,1392,256L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+                    </path>
+                </svg>
+
+                <img src="./cv-template/user.png" alt="">
+                <h1 class="personal-info">Personal Info</h1>
+
+
+
+                <div class="info">
+
+                    <div>
+                        <p>Phone Number</p>
+                        <span> 061 900 237</span>
+                    </div>
+                    <div>
+                        <p>Address </p>
+                        <span>Dzemala Bijedica 279E</span>
+                    </div>
+                    <div>
+                        <p>Email </p>
+                        <span>amir.celjo2@gmail.com</span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="head">
+                    <h1 id="name">Amir Celjo</h1>
+                    
+                    <small id="brief">
+                        IT Senior Developer with 5+ experience in Javascript
+                    </small>
+                </div>
+                
+                <div class="content">
+                    <div class="biography">
+                        <h1><i class="fa-solid fa-square"></i>Biography</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat voluptatem nostrum laborum,
+                            doloremque quaerat iusto possimus, ad consequatur nulla rem ab soluta minima, culpa sit qui
+                            non quasi beatae commodi?</p>
+                    </div>
+                    <div class="skills">
+                        <h1><i class="fa-solid fa-square"></i>Skills</h1>
+                        <ul>
+                            <li>Javascript</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                    <div class="edu">
+                        <h1><i class="fa-solid fa-square"></i>Education</h1>
+
+                        <div class="education-degree">
+                            <div class="heading">
+                                <div>
+                                    <h4>Osnovna skola El-Manar</h4>
+                                </div>
+                                <div class="years-active">
+                                    <span>Sept 2004 - Jun 2012</span>
+                                </div>
+                            </div>
+
+                            <small>Osmogodisnje skolovanje</small>
+                        </div>
+
+                        <div class="education-degree">
+                            <div class="heading">
+                                <div>
+                                    <h4>Srednja ugostiteljsko-turisticka skola </h4>
+                                </div>
+                                <div class="years-active">
+                                    <span>Aug 2012- Sept 2016</span>
+                                </div>
+                            </div>
+
+                            <small>Ugostiteljski tehnicar</small>
+                        </div>
+                    </div>
+
+
+                    <div class="hobbie">
+                        <h1><i class="fa-solid fa-square"></i>Hobbies</h1>
+
+                        <p>Football, Walking, Bike riding, Driving, Shopping</p>
+
+                    </div>
+                    <div class="certificates">
+                        <h1><i class="fa-solid fa-square"></i>Certificates</h1>
+                        <div class="add-certificate">
+                            <div class="heading">
+                                <div>
+                                    <h4>Cisco Network Administrator</h4>
+                                </div>
+                                <div class="years-active">
+                                    <span>Aug 2017- Present</span>
+                                </div>
+                            </div>
+
+                            <small>Mrezni Administrator</small>
+                        </div>
+                    </div>
+                    <div class="experiences">
+                        <h1><i class="fa-solid fa-square"></i>Experience</h1>
+                        <div class="add-experience">
+                            <p><i class="fa-solid fa-circle-notch fa-1x"></i> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit eos quo blanditiis! Dicta quidem, mollitia, labore tempora ipsam veritatis a in explicabo minima ex ipsum, sit possimus adipisci quos consequatur?</p>
+                            <p><i class="fa-solid fa-circle-notch fa-1x"></i> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit eos quo blanditiis! Dicta quidem, mollitia, labore tempora ipsam veritatis a in explicabo minima ex ipsum, sit possimus adipisci quos consequatur?</p>
+                            <p><i class="fa-solid fa-circle-notch fa-1x"></i> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit eos quo blanditiis! Dicta quidem, mollitia, labore tempora ipsam veritatis a in explicabo minima ex ipsum, sit possimus adipisci quos consequatur?</p>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+
+        <div class="cv-template-3">
+            <div class="top">
+                <div class="heading">
+                    <h1 id="name">Amir Celjo</h1>
+                    <small id="brief">
+                        IT Senior Developer with 5+ experience in Javascript
+                    </small>
+                    <div class="social-media">
+                        <div><i class="fa-brands fa-facebook"></i></div>
+                        <div><i class="fa-brands fa-instagram"></i></div>
+                        <div><i class="fa-brands fa-linkedin"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+
+                <div id="profile">
+                    <h1 class="personal-info">Profile</h1>
+                    <div class="info">
+                        <div>
+                            <p>Phone Number</p>
+                            <span> 061 900 237</span>
+                        </div>
+                        <div>
+                            <p>Address </p>
+                            <span>Dzemala Bijedica 279E</span>
+                        </div>
+                        <div>
+                            <p>Email </p>
+                            <span>amir.celjo2@gmail.com</span>
+                        </div>
+
+                    </div>
+                </div>
+                <hr>
+                <div class="content">
+                    <div class="biography">
+                        <h1><i class="fa-solid fa-circle-dot "></i>Biography</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat voluptatem nostrum laborum,
+                            doloremque quaerat iusto possimus, ad consequatur nulla rem ab soluta minima, culpa sit qui
+                            non quasi beatae commodi?</p>
+                    </div>
+                    <div class="skills">
+                        <h1><i class="fa-solid fa-circle-dot "></i>Skills</h1>
+                        <ul>
+                            <li>Javascript</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                    <div class="edu">
+                        <h1><i class="fa-solid fa-circle-dot "></i>Education</h1>
+
+                        <div class="education-degree">
+                            <div class="heading">
+                                <div>
+                                    <h4>Osnovna skola El-Manar</h4>
+                                </div>
+                                <div class="years-active">
+                                    <span>Sept 2004 - Jun 2012</span>
+                                </div>
+                            </div>
+
+                            <small>Osmogodisnje skolovanje</small>
+                        </div>
+
+                        <div class="education-degree">
+                            <div class="heading">
+                                <div>
+                                    <h4>Srednja ugostiteljsko-turisticka skola </h4>
+                                </div>
+                                <div class="years-active">
+                                    <span>Aug 2012- Sept 2016</span>
+                                </div>
+                            </div>
+
+                            <small>Ugostiteljski tehnicar</small>
+                        </div>
+                    </div>
+
+
+                    <div class="hobbie">
+                        <h1><i class="fa-solid fa-circle-dot "></i>Hobbies</h1>
+
+                        <p>Football, Walking, Bike riding, Driving, Shopping</p>
+
+                    </div>
+                    <div class="certificates">
+                        <h1><i class="fa-solid fa-circle-dot "></i>Certificates</h1>
+                        <div class="add-certificate">
+                            <div class="heading">
+                                <div>
+                                    <h4>Cisco Network Administrator</h4>
+                                </div>
+                                <div class="years-active">
+                                    <span>Aug 2017- Present</span>
+                                </div>
+                            </div>
+
+                            <small>Mrezni Administrator</small>
+                        </div>
+                    </div>
+                    <div class="experiences">
+                        <h1><i class="fa-solid fa-circle-dot "></i>Experience</h1>
+                        <div class="add-experience">
+                            <p><i class="fa-solid fa-circle-notch fa-1x"></i> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit eos quo blanditiis! Dicta quidem, mollitia, labore tempora ipsam veritatis a in explicabo minima ex ipsum, sit possimus adipisci quos consequatur?</p>
+                            <p><i class="fa-solid fa-circle-notch fa-1x"></i> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit eos quo blanditiis! Dicta quidem, mollitia, labore tempora ipsam veritatis a in explicabo minima ex ipsum, sit possimus adipisci quos consequatur?</p>
+                            <p><i class="fa-solid fa-circle-notch fa-1x"></i> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit eos quo blanditiis! Dicta quidem, mollitia, labore tempora ipsam veritatis a in explicabo minima ex ipsum, sit possimus adipisci quos consequatur?</p>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>

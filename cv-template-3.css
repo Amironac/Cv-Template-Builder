@@ -1,0 +1,111 @@
+
+.cv-template-3{
+    margin:auto;
+    padding:0;
+    
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    /* height:600px; */
+    /* border:1px solid black; */
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 3px 5px 5px 3px rgb(181, 181, 181);
+    font-size: 13px;
+}
+h1,span,p,i{
+    font-size:13px;
+}
+
+.cv-template-3 .top{
+    /* text-align: center; */
+    
+    height: 22%;
+    padding:20px;
+    margin:10px;
+    border-radius: 5px;
+
+    background-color: rgb(124, 124, 124);
+    color:rgb(255, 255, 255);
+    font-size:18px;
+    font-weight: 600;
+    
+}
+.cv-template-3 .top .social-media{
+    display: flex;
+    margin-top:10px;
+}
+.cv-template-3 .top .social-media > div{
+    margin: 10px 10px 0px 0px;
+}
+
+.cv-template-3 .bottom {
+    padding: 20px;
+}
+.cv-template-3 #profile {
+    text-align:center;
+    margin-bottom:20px;
+}
+.cv-template-3 .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.cv-template-3 .info > div{
+    width:30%;
+    margin-top: 20px;
+}
+.cv-template-3 .content{
+    padding-top:20px;
+    color:gray;
+}
+.cv-template-3 .content > div{
+    margin-bottom:20px;
+}
+.cv-template-3 .content > div i {
+    font-size:20px;
+    margin-right:5px;
+}
+.cv-template-3 .biography h1{
+    margin-bottom:10px;
+}
+.cv-template-3 .skills ul{
+    padding-left:30px;
+    list-style: square;
+}
+.cv-template-3 .education-degree{
+    margin-bottom:10px;
+}
+.cv-template-3 .bottom .heading{
+    display: flex;
+    justify-content: left;
+}
+.cv-template-3 .heading h4{
+    margin-left:12%;
+    margin-top:3%;
+}
+.cv-template-3 .heading > div{
+    width:50%;
+}
+.cv-template-3 .heading .years-active{
+    text-align: right;
+    color:rgb(90, 90, 255);
+    font-size:16px;
+}
+.cv-template-3 .experiences .add-experience{
+    padding-top:20px;
+    padding-left: 20px;
+}
+.cv-template-3 .experiences .add-experience p{
+    margin: 5px 0px 5px 10px;
+}
+.cv-template-3 .experiences .add-experience p i{
+    
+    font-size: 15px;
+}
+
+#hobbie-3 p{
+    margin-left: 6%;
+    margin-top:3%;
+}

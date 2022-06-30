@@ -1,0 +1,351 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100%;
+    /* margin:20px auto; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#section-one {
+    width:100%;
+    padding:0px;
+    margin:0px;
+}
+#heading{
+    font-size: 35px;
+    color:rgb(0, 140, 255);
+    text-align: center;
+}
+#choose-template{
+    text-align: center;
+    
+    color: gray;
+}
+#section-one .container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+#section-one .container .item-1,
+#section-one .container .item-2,
+#section-one .container .item-3{
+    /* border:0.5px solid rgb(106, 192, 106); */
+    width: 420px;
+    height: 500px;
+    margin:10px 0px;
+    border-radius:4px ;
+    cursor: pointer;
+    transition:0.5s;
+    transform: scale(1);
+}
+#section-one .container .item-1{
+    background: url('./cv-template/slika1.png') no-repeat center center/cover;
+}
+#section-one .container .item-2{
+    background: url('./cv-template/slika2.png') no-repeat center center/cover;
+}
+#section-one .container .item-3{
+    background: url('./cv-template/slika3.png') no-repeat center center/cover;
+}
+
+#section-one .container .item-1:hover,
+#section-one .container .item-2:hover,
+#section-one .container .item-3:hover{
+    opacity: 0.9;
+    transition:0.5s;
+    transform:scale(1.1);
+}
+#main{
+    width:80%;display:flex; flex-direction:row-reverse;
+    margin:20px auto;
+}
+
+.info-text{
+    color:gray;
+    display: flex;
+    justify-content: center;
+    margin-bottom:20px;
+}
+#section-two{
+    display: none;
+    
+    width:50%;
+    padding-top:80px
+}
+#section-two h1{
+    text-align: left;
+}
+#section-two #form {
+    
+    width:70%;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#section-two #form .row-1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    /* border:1px solid aqua; */
+    border-radius: 5px;
+    margin:5px;
+    padding:10px;
+}
+
+.bio,
+.skill,
+.education,
+.hobbies,
+.certificate,
+.experience{
+    /* border:1px solid aqua; */
+    border-radius: 5px;
+    padding:5px;
+    margin:5px;
+}
+#section-two #form .row-1 >input,
+#section-two #form input{
+    border: none;
+    border-bottom:4px solid aqua;
+    width:100%;
+    height:30px;
+    margin-bottom:10px;
+    
+}
+#textarea-content{
+    height:250px;
+    margin-top:20px;
+    animation: contentDropTextarea linear ;
+    animation-duration: 0.5s;
+    overflow: hidden;
+}
+#skill-input,
+#education-input,
+#hobbie-input,
+#certificate-input,
+#experience-input{
+    margin-top: 20px;
+    height:120px;
+    animation: contentDrop linear ;
+    animation-duration: 0.5s;
+    overflow: hidden;
+}
+
+.content-display{
+    display: none;
+
+}
+
+.floating-x{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color:tomato;
+    cursor:pointer;
+}
+.btn-primary{
+    border:1px solid rgb(1, 207, 1);
+    padding:13px 25px 13px 25px;
+    border-radius: 5px;
+    cursor:pointer;
+    color:rgb(1, 207, 1);
+    background-color:rgba(0, 0, 0, 0);
+}
+.btn-primary:hover{
+    transition:1s;
+    background-color: rgb(1, 207, 1);
+    color:white;
+
+}
+textarea{
+    
+    width:100%;
+    margin-top:10px;
+    border:2.2px solid aqua;
+    border-radius:5px;
+}
+textarea:focus{
+    outline:none;
+    border:2px solid tomato;
+}
+
+#section-two #form .row-1 > input:focus,
+#section-two #form #skill-input input:focus,
+#section-two #form .education input:focus,
+#section-two #form .hobbies input:focus,
+#section-two #form .certificate input:focus,
+#section-two #form .experience input:focus{
+    outline:none;
+    border-bottom:2px solid tomato;
+}
+
+
+#section-two #form h3{
+    color:rgb(157, 157, 157);
+    text-transform: uppercase;
+
+}
+#section-two #form .row-2{
+    justify-content: left;
+    align-items: left;
+    margin-top:20px;
+}
+
+.title-with-floatingBtn{
+    display: flex;
+    align-items: center;
+    width: 100%;
+ 
+}
+.title-with-floatingBtn >div {
+    width:50%;
+    
+}
+.title-with-floatingBtn .button{
+   
+    text-align:right;
+}
+
+
+.floating-btn{
+   
+    border:2px solid aqua;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    width:40px;
+    height: 40px;
+    cursor: pointer;
+    color:aqua;
+    /* margin-left: 20px; */
+}
+
+.btn-submit{
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    width:96%;
+    height:25px;
+    cursor:pointer;
+    background-color: rgba(0, 0, 0, 0);
+    border:1px solid rgb(20, 201, 20);
+    color:rgb(20, 201, 20);
+    border-radius:3px;
+}
+
+.btn-submit:hover{
+    background-color:rgb(20, 201, 20);
+    color:white;
+}
+
+.change-template{
+    display: none;
+    width: 100%;
+    color:greenyellow;
+    justify-content: right;
+ 
+}
+.arrow-back{
+    
+    cursor:pointer;
+    display: flex;
+    width:180px;
+    height:40px;
+    align-items: center;
+    justify-content:center;
+    gap:10px;
+}
+
+.template-1,.template-2,.template-3{
+    display: none;
+    margin-left:auto;
+    margin-top:5%;
+    margin-right:5%;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    
+    
+}
+
+
+#footer{
+    width:100%;
+    padding:20px;
+    /* position: fixed; */
+    /* bottom:0; */
+    text-align: center;
+    
+    background-color:rgb(89, 167, 255) ;
+    color:rgb(246, 246, 246);
+}
+#footer .footer-flex {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin:auto;
+    color:rgb(246, 246, 246);
+    gap:15px;
+    margin-bottom:20px;
+}
+#footer .footer-flex li{
+    list-style: none;
+}
+#footer .footer-flex li a{
+    text-decoration: none;
+    color:rgb(246, 246, 246);
+}
+
+#footer .footer-flex li:hover a{
+    color:gray;
+}
+
+@media (max-width:500px) {
+    #section-two #form {
+    
+        width:100%;
+        margin:auto;
+        justify-content: center;
+        align-items: center;
+    }
+    #section-two #form .row-1{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@keyframes contentDropTextarea {
+    0% {height:0px;}
+    100%{height: 250px;}
+}
+
+@keyframes contentDrop {
+    0% {height:0px;}
+    100% {height: 120px;}
+}
+
+@media (max-width:560px) {
+    *{
+        box-sizing: border-box;
+        
+    }
+    .container{
+        flex-direction: column;
+    }
+    #main{
+        flex-direction: column;
+    }
+    #section-two{
+        width:100%;
+    }
+}
+
